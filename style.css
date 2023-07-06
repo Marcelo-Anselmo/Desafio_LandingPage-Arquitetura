@@ -52,9 +52,51 @@
 #title-demo {
   margin-top: 150px;
   margin-left: 50px;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 #text-demo {
   margin-top: 30px;
   margin-left: 50px;
+  font-weight: 300;
+  font-size: 18px;
 }
+
+#form-sec {
+  background-color: #303030;
+  text-align: center;
+}
+
+#title-form {
+  color: white;
+  font-size: 25px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  
+}
+
+input {
+  font-family: 'Raleway', sans-serif;
+  color: #0000004D;
+  width: 300px;
+  height: 40px;
+  margin: 15px;
+  background-color: #FFFFFF;
+  border: 0;
+  border-radius: 10px;
+  padding-left: 15px;
+}
+
+    button {
+      background-color: #C07212;
+      color: white;
+      font-family: 'Raleway', sans-serif; 
+      font-weight: 700;
+      width: 150px;
+      height: 40px;
+      border: 0;
+      border-radius: 10px;
+      margin-bottom: 50px;
+      cursor: pointer;
+    }
