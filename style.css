@@ -1,6 +1,7 @@
 * {
   font-family: 'Inter', sans-serif;
   margin: 0px;
+  scroll-behavior: smooth;
 }
 
 #header {
@@ -15,6 +16,10 @@
   padding-left: 35px;
 }
 
+.header-title, .header-text, .text-info{
+  visibility: hidden;
+}
+
 #header-text {
   margin-left: 50px;
   margin-top: 25px;
@@ -22,6 +27,7 @@
   color: white;
   font-size: 20px;
   font-weight: 500;
+  line-height: 28px;
 }
 
 #menu-info {
@@ -36,6 +42,8 @@
   margin-left: 100px;
   padding-bottom: 30px;
   font-size: 25px;
+  font-weight: 400;
+  line-height: 28px;
 }
 
 #demo-img {
@@ -88,15 +96,23 @@ input {
   padding-left: 15px;
 }
 
-    button {
-      background-color: #C07212;
-      color: white;
-      font-family: 'Raleway', sans-serif; 
-      font-weight: 700;
-      width: 150px;
-      height: 40px;
-      border: 0;
-      border-radius: 10px;
-      margin-bottom: 50px;
-      cursor: pointer;
-    }
+button {
+  background-color: #C07212;
+  color: white;
+  font-family: 'Raleway', sans-serif; 
+  font-weight: 700;
+  width: 150px;
+  height: 40px;
+  border: 0;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: mediumpurple;
+  color: white;
+  transform: translateY(-7px);
+  box-shadow: 0px 15px 20px #05103081;
+  transition-duration: 0.5s;
+}
